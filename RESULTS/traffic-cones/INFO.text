@@ -1,0 +1,46 @@
+
+Mapping from variables names (used in the formula) to their meaning:
+(contain both system-level variables and observable variables)
+(supervisor)
+
+pi[0][0]  'time'
+pi[0][1]  'ego_x'
+pi[0][2]  'ego_y' 
+pi[0][3]  'yaw' 
+pi[0][4]  'cone0_x'   
+pi[0][5] 'cone0_y'   
+pi[0][6] 'cone0_min_dist'
+pi[0][7]  'cone1_x'   
+pi[0][8] 'cone1_y'   
+pi[0][9]. 'cone1_min_dist' 
+pi[0][10] 'cone2_x',   
+pi[0][11]'cone2_y'   
+pi[0][12]'cone2_min_dist' 
+pi[0][13] 'speed_car'
+pi[0][14] min distance from cones
+
+
+pi[0][15] steering_angle
+pi[0][16] target_speed
+pi[0][17] current_speed                  
+pi[0][18] estimated_dist_cones
+
+ 
+pi[0][19] number bounding boxes
+pi[0][20] size of biggest bounding box
+pi[0][21] size of second biggest bounding box
+pi[0][22] confidence of biggest bounding box
+
+pi[0][23] number of pixels of the color of the traffic cones
+pi[0][24] number of orange agglomerates  
+pi[0][25] size of biggest orange agglomerate
+pi[0][26] size of second biggest orange agglomerate
+
+pi[0][27] variation of the size of the biggest bounding box in time 10
+pi[0][28] variation of the size of biggest orange agglomerate in time 10
+     
+pi[0][29] distance of the color of the broken car from the color orange in norm 1
+pi[0][30] hue of the color of the broken car
+pi[0][31] saturation of the color of the broken car
+pi[0][32] value of the color of the broken car
+           

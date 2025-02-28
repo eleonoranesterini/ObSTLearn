@@ -1,0 +1,304 @@
+Traces used for testing in data/lead_follower/final_datasets/testing_main: from 1 to 200
+Traces used for testing in data/lead_follower/final_datasets/testing_additional: from 201 to 400
+Number of positive testing traces: 331
+Number of negative testing traces: 69
+
+
+
+
+#####    1    #####
+
+Formula:
+  eventually ( eventually[592.7644103769663:end_trace] ( not ( always[363.29247554766926:end_trace] ( not ( eventually[592.7644103769663:end_trace] ( pi[0][24] < 9.027950580136277 ) ) ) ) ) )
+
+MSC = 0.065, rfp =0.0, rfn=0.37681159420289856
+
+Number of false positives: 0
+Number of false negatives: 26
+Number of true positives : 43
+Number of true negatives : 331
+Accuracy: 0.935
+Precision: 1.0
+Recall: 0.6231884057971014
+F1-score: 0.7678571428571428
+Ratio false positives: 0.0
+Ratio false negatives: 0.37681159420289856
+
+Average ratio of false positives: 0.0
+Average ratio of false negatives: 0.37681159420289856
+
+
+#####    2    #####
+
+Formula:
+  not ( eventually[260.0813061875578:end_trace] ( eventually[260.0813061875578:end_trace] ( eventually ( eventually ( not ( pi[0][19] < 459.83100046948755 ) ) ) ) ) )
+
+MSC = 0.0975, rfp =0.006042296072507553, rfn=0.5362318840579711
+
+Number of false positives: 2
+Number of false negatives: 37
+Number of true positives : 32
+Number of true negatives : 329
+Accuracy: 0.9025
+Precision: 0.9411764705882353
+Recall: 0.463768115942029
+F1-score: 0.6213592233009708
+Ratio false positives: 0.006042296072507553
+Ratio false negatives: 0.5362318840579711
+
+Average ratio of false positives: 0.006042296072507553
+Average ratio of false negatives: 0.5362318840579711
+
+
+#####    3    #####
+
+Formula:
+ (  always[530.7167394513792:end_trace] ( eventually ( pi[0][19] < 61.52381136092871 ) )) or ( not ( pi[0][25] < 86.50987154273048 ) )
+
+MSC = 0.0875, rfp =0.0030211480362537764, rfn=0.4927536231884058
+
+Number of false positives: 1
+Number of false negatives: 34
+Number of true positives : 35
+Number of true negatives : 330
+Accuracy: 0.9125
+Precision: 0.9722222222222222
+Recall: 0.5072463768115942
+F1-score: 0.6666666666666666
+Ratio false positives: 0.0030211480362537764
+Ratio false negatives: 0.4927536231884058
+
+Average ratio of false positives: 0.0030211480362537764
+Average ratio of false negatives: 0.4927536231884058
+
+
+#####    4    #####
+
+Formula:
+ (  not ( pi[0][25] < 240.48381825879915 )) or ( always ( pi[0][23] < 63.41856642095731 ) )
+
+MSC = 0.095, rfp =0.012084592145015106, rfn=0.4927536231884058
+
+Number of false positives: 4
+Number of false negatives: 34
+Number of true positives : 35
+Number of true negatives : 327
+Accuracy: 0.905
+Precision: 0.8974358974358975
+Recall: 0.5072463768115942
+F1-score: 0.6481481481481483
+Ratio false positives: 0.012084592145015106
+Ratio false negatives: 0.4927536231884058
+
+Average ratio of false positives: 0.012084592145015106
+Average ratio of false negatives: 0.4927536231884058
+
+
+#####    5    #####
+
+Formula:
+  eventually[51.46919568417735:end_trace] ( pi[0][3] < -0.6204590712400861 )
+
+MSC = 0.6475, rfp =0.7764350453172205, rfn=0.028985507246376812
+
+Number of false positives: 257
+Number of false negatives: 2
+Number of true positives : 67
+Number of true negatives : 74
+Accuracy: 0.3525
+Precision: 0.20679012345679013
+Recall: 0.9710144927536232
+F1-score: 0.34096692111959287
+Ratio false positives: 0.7764350453172205
+Ratio false negatives: 0.028985507246376812
+
+Average ratio of false positives: 0.7764350453172205
+Average ratio of false negatives: 0.028985507246376812
+
+
+#####    6    #####
+
+Formula:
+  always[260.1249780762644:end_trace] ( not ((  eventually[260.0813061875578:end_trace] ( pi[0][25] < -38.312191661528004 )) and ( pi[0][3] < 0.9905471024872337 ) ) )
+
+MSC = 0.1425, rfp =0.006042296072507553, rfn=0.7971014492753623
+
+Number of false positives: 2
+Number of false negatives: 55
+Number of true positives : 14
+Number of true negatives : 329
+Accuracy: 0.8575
+Precision: 0.875
+Recall: 0.2028985507246377
+F1-score: 0.32941176470588235
+Ratio false positives: 0.006042296072507553
+Ratio false negatives: 0.7971014492753623
+
+Average ratio of false positives: 0.006042296072507553
+Average ratio of false negatives: 0.7971014492753623
+
+
+#####    7    #####
+
+Formula:
+  always ( always ((  pi[0][18] < 4.579542597300138) or ( pi[0][23] < 63.13992597095311 ) ) )
+
+MSC = 0.095, rfp =0.012084592145015106, rfn=0.4927536231884058
+
+Number of false positives: 4
+Number of false negatives: 34
+Number of true positives : 35
+Number of true negatives : 327
+Accuracy: 0.905
+Precision: 0.8974358974358975
+Recall: 0.5072463768115942
+F1-score: 0.6481481481481483
+Ratio false positives: 0.012084592145015106
+Ratio false negatives: 0.4927536231884058
+
+Average ratio of false positives: 0.012084592145015106
+Average ratio of false negatives: 0.4927536231884058
+
+
+#####    8    #####
+
+Formula:
+  always ( always[260.1441445651695:end_trace] ((  always ( pi[0][25] < 216.67212273360724 )) and ( pi[0][21] < 0.20614391987831004 ) ) )
+
+MSC = 0.1075, rfp =0.04229607250755287, rfn=0.42028985507246375
+
+Number of false positives: 14
+Number of false negatives: 29
+Number of true positives : 40
+Number of true negatives : 317
+Accuracy: 0.8925
+Precision: 0.7407407407407407
+Recall: 0.5797101449275363
+F1-score: 0.6504065040650405
+Ratio false positives: 0.04229607250755287
+Ratio false negatives: 0.42028985507246375
+
+Average ratio of false positives: 0.04229607250755287
+Average ratio of false negatives: 0.42028985507246375
+
+
+#####    9    #####
+
+Formula:
+  always ( always[363.29247554766926:end_trace] ( pi[0][23] < 49.54745312476695 ) )
+
+MSC = 0.0875, rfp =0.006042296072507553, rfn=0.4782608695652174
+
+Number of false positives: 2
+Number of false negatives: 33
+Number of true positives : 36
+Number of true negatives : 329
+Accuracy: 0.9125
+Precision: 0.9473684210526315
+Recall: 0.5217391304347826
+F1-score: 0.6728971962616822
+Ratio false positives: 0.006042296072507553
+Ratio false negatives: 0.4782608695652174
+
+Average ratio of false positives: 0.006042296072507553
+Average ratio of false negatives: 0.4782608695652174
+
+
+#####    10    #####
+
+Formula:
+  always ( pi[0][25] < 55.672361910840436 )
+
+MSC = 0.09, rfp =0.006042296072507553, rfn=0.4927536231884058
+
+Number of false positives: 2
+Number of false negatives: 34
+Number of true positives : 35
+Number of true negatives : 329
+Accuracy: 0.91
+Precision: 0.9459459459459459
+Recall: 0.5072463768115942
+F1-score: 0.660377358490566
+Ratio false positives: 0.006042296072507553
+Ratio false negatives: 0.4927536231884058
+
+Average ratio of false positives: 0.006042296072507553
+Average ratio of false negatives: 0.4927536231884058
+
+#############################
+### Average results     ######
+#############################
+
+nb true positives:37.2 +- 12.310970717209914
+nb true negatives:302.2 +- 76.15746844532057
+nb false positives:28.8 +- 76.15746844532057
+nb false negatives:31.8 +- 12.310970717209914
+ MSCs:     0.1515  +- 0.16637006942355945
+Precision: 0.8424115718878362  +- 0.22240586136412568
+Recall:    0.5391304347826086  +- 0.17841986546681035
+F1_score:  0.6006239073763842  +- 0.13766831455919581
+
+#############################
+
+
+
+#############################
+# Evaluation majority voting #
+#############################
+
+Number of positive traces in the dataset: 331
+Number of negative traces in the dataset: 69
+
+Number of true positives: 35
+Number of true negatives: 329
+Number of false positives: 2
+Number of false negatives: 34
+MSC: 0.09
+Precision: 0.9459459459459459
+Recall: 0.5072463768115942
+F1-score: 0.660377358490566
+
+Ratio of false positives : = 0.006042296072507553
+Ratio of false negatives : 0.4927536231884058
+
+
+
+#############################
+Evaluation with average robustness 
+#############################
+
+Number of positive traces in the dataset: 331
+Number of negative traces in the dataset: 69
+
+Number of true positives: 60
+Number of true negatives: 329
+Number of false positives: 2
+Number of false negatives: 9
+MSC: 0.0275
+Precision: 0.967741935483871
+Recall: 0.8695652173913043
+F1-score: 0.9160305343511451
+
+Ratio of false positives : = 0.006042296072507553
+Ratio of false negatives : 0.13043478260869565
+
+
+
+#############################
+Evaluation with largest robustness 
+#############################
+
+Number of positive traces in the dataset: 331
+Number of negative traces in the dataset: 69
+
+Number of true positives: 59
+Number of true negatives: 329
+Number of false positives: 2
+Number of false negatives: 10
+MSC: 0.03
+Precision: 0.9672131147540983
+Recall: 0.855072463768116
+F1-score: 0.9076923076923077
+
+Ratio of false positives : = 0.006042296072507553
+Ratio of false negatives : 0.14492753623188406
